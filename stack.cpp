@@ -29,5 +29,8 @@ bool stack::IsFull() const
 }
 
 ItemType stack::Top() {
-    return 0;
+
+    if (IsEmpty())
+    throw EmptyStack();
+    return items[top];
 }
