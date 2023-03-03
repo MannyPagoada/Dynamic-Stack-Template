@@ -1,0 +1,8 @@
+//
+// Created by manuelpagoada on 3/2/23.
+//
+
+#ifndef DYNAMIC_STACK_TEMPLATE_STACK_CPP_H
+#define DYNAMIC_STACK_TEMPLATE_STACK_CPP_H
+
+#endif //DYNAMIC_STACK_TEMPLATE_STACK_CPP_H
