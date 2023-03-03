@@ -8,14 +8,18 @@
 
 #include "ItemType.h"
 
+class EmptyStack{};
+class FullStack{};
+
 class stack{
 public:
-
+    stack();
+    bool IsFull() const;
     bool IsEmpty() const;
-
     void Push(ItemType item);
+    void Pop();
+    ItemType Top();
 
-     void Pop();
 private:
     int top;
     ItemType  items[MAX_ITEMS];

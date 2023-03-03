@@ -15,11 +15,18 @@ int main(){
     cin >> input;
 
 
- //this will push the string on the stack
+    //this will push the string on the stack
     for(int i=0;i<sizeof(input);i++){
 
         newstack.Push(input[i]);
     }
+
+    //return then pop
+    for(int i=0;i<sizeof(input); i++){
+        output[i]=newstack.Top();
+        newstack.Pop();
+    }
+
 
 
 
