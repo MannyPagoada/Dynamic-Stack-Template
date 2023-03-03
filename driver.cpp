@@ -27,6 +27,9 @@ int main(){
         newstack.Pop();
     }
 
+    //print output
+    cout << output;
+
 
 
 
